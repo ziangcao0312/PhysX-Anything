@@ -55,7 +55,7 @@ pip install 'accelerate>=0.26.0'
 
 ### Inference
 
-1. Download the pre-train model from [huggingface](https://huggingface.co/Caoza/PhysX-Anything).
+1. Download the pre-train model from [huggingface_v1](https://huggingface.co/Caoza/PhysX-Anything).
 
 ```bash
 python download.py
