@@ -22,6 +22,8 @@
 <div style="width: 100%; text-align: center; margin:auto;">
     <img style="width:100%" src="img/teaser.png">
 </div>
+
+
 ## 🏆 News
 
 - We release the code of PhysX-Anything and our new dataset PhysX-Mobility 🎉
