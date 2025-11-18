@@ -92,7 +92,7 @@ For more details about our proposed dataset including dataset structure and anno
 
 ## References
 
-If you find PhysX-Anything and PhysX-3D useful for your work please cite:
+If you find PhysX-Anything and PhysX-3D useful for your work, please cite:
 
 ```
 @article{physxanything,
