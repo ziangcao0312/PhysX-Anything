@@ -1,0 +1,17 @@
+Please analyze the given image of an object and output its structured description in the following format (voxel grid=32):
+Name: <object name>
+Category: <object category>
+Dimension: <physical dimensions in cm like 50*40*30>
+Parts:
+l_<id>: <part name>, <Affordance rank>, <Material Name>, <Density>, <Young's Modulus>, <Poisson's Ratio>, <basic description of the part>
+l_<id>: <part name>, <Affordance rank>, <Material Name>, <Density>, <Young's Modulus>, <Poisson's Ratio>, <basic description of the part>
+...
+Group_info:
+group_<id>: [l_<id>, ...] (child); Type: E; Params: N/A
+group_<id>: [l_<id>, ...] (child); Type: A relative to group_<id> (parent); Params: N/A
+group_<id>: [l_<id>, ...] (child); Type: B relative to group_<id> (parent); Params: direction: [x,y,z], slide range (in voxel grid): [min,max]
+group_<id>: [l_<id>, ...] (child); Type: C relative to group_<id> (parent); Params: direction: [x,y,z], axis position (in voxel grid): [x,y,z], revolute range (degree): [min,max]
+group_<id>: [l_<id>, ...] (child); Type: D relative to group_<id> (parent); Params: hinge position (in voxel grid): [x,y,z]
+group_<id>: [l_<id>, ...] (child); Type: CB relative to group_<id> (parent); Params: axis direction: [x,y,z], axis position (in voxel grid): [x,y,z], revolute range (degree): [min,max], slide direction: [x,y,z], slide range (in voxel grid): [min,max]
+...
+Note: There are Five movement type: A (Move freely), B (Slide), C (Rotate around axis), D (Rotate around point), CB (Rotate and Slide), E (Fixed to the world).
