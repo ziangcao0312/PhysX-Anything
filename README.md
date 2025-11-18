@@ -92,12 +92,19 @@ For more details about our proposed dataset including dataset structure and anno
 
 ## References
 
-If you find PhysX-Anything useful for your work please cite:
+If you find PhysX-Anything and PhysX-3D useful for your work please cite:
 
 ```
-@article{cao2025physx,
+@article{physxanything,
   title={PhysX-Anything: Simulation-Ready Physical 3D Assets from Single Image},
   author={Cao, Ziang and Hong, Fangzhou and Chen, Zhaoxi and Pan, Liang and Liu, Ziwei},
+  journal={arXiv preprint arXiv:2511.13648},
+  year={2025}
+}
+
+@article{physx3d,
+  title={PhysX-3D: Physical-Grounded 3D Asset Generation},
+  author={Cao, Ziang and Chen, Zhaoxi and Pan, Liang and Liu, Ziwei},
   journal={arXiv preprint arXiv:2507.12465},
   year={2025}
 }
