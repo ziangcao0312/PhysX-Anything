@@ -50,7 +50,7 @@ cd PhysX-Anything
 3. Install the dependencies for Qwen2.5:
 
 ```bash
-pip install transformer==4.50.0
+pip install transformers==4.50.0
 pip install qwen-vl-utils
 pip install 'accelerate>=0.26.0'
 ```
